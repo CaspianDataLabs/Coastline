@@ -38,7 +38,7 @@ numpy = "^2.2.5"
 datetime = "^5.5"
 click = "^8.1.8"
 rich-click = "^1.8.8"
-pandas = "^2.2.3"
+pandas = "^3.0.1"
 ijson = "^3.3.0"
 matplotlib = "^3.10.1"
 
