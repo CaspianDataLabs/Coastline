@@ -55,7 +55,7 @@ pyupgrade = "^3.19.1"
 coverage = "^7.8.0"
 coverage-badge = "^1.1.2"
 pytest-html = "^4.1.1"
-pytest-cov = "^6.1.1"
+pytest-cov = "^7.0.0"
 black = {version = "^25.1.0", allow-prereleases = true}
 
 [tool.black]
