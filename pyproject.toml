@@ -39,7 +39,7 @@ datetime = "^5.5"
 click = "^8.1.8"
 rich-click = "^1.8.8"
 pandas = "^2.2.3"
-ijson = "^3.3.0"
+ijson = "^3.5.0"
 matplotlib = "^3.10.1"
 
 [tool.poetry.group.dev.dependencies]
