@@ -25,7 +25,7 @@ jobs:
         run: uv python install ${{ matrix.python-version }}
 
       - name: Install dependencies
-        run: uv sync -E dev
+        run: uv sync
 
       - name: Run tests
         run: uv run pytest tests/ --cov=src/coastline --cov-report=xml
@@ -50,7 +50,7 @@ jobs:
         run: uv python install 3.12
 
       - name: Install dependencies
-        run: uv sync -E dev
+        run: uv sync
 
       - name: Lint
         run: uv run ruff check .
