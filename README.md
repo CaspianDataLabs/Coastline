@@ -6,6 +6,8 @@ A Python package for declarative configuration management using Pydantic types a
 [![Python Versions](https://img.shields.io/pypi/pyversions/coastline.svg)](https://pypi.org/project/coastline/)
 [![License](https://img.shields.io/github/license/kwierman/coastline.svg)](https://github.com/kwierman/coastline/blob/main/LICENSE)
 
+See the full documentation at: [Github Pages](https://caspiandatalabs.github.io/Coastline/)
+
 ## Features
 
 - **Type-safe configuration**: Define your configuration schemas using Pydantic models with full validation
