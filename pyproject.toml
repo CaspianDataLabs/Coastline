@@ -34,7 +34,7 @@ classifiers = [  #! Update me
 [tool.poetry.dependencies]
 python = "^3.11"
 rich = "^10.14.0"
-numpy = "^2.2.5"
+numpy = "^2.4.4"
 datetime = "^5.5"
 click = "^8.1.8"
 rich-click = "^1.8.8"
