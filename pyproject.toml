@@ -1,12 +1,25 @@
 [project]
 name = "coastline"
 version = "0.1.0"
-description = "Add your description here"
+description = "Configuration management for Python using Pydantic types and YAML config files"
 readme = "README.md"
+license = { text = "MIT" }
 authors = [
     { name = "Kevin Wierman", email = "kwierman@gmail.com" }
 ]
 requires-python = ">=3.11"
+keywords = ["config", "configuration", "pydantic", "yaml", "settings"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
 dependencies = [
     "pydantic>=2.12.5",
     "pyyaml>=6.0.3",
@@ -19,6 +32,9 @@ dev = [
     "ruff>=0.9.0",
     "build>=1.0.0",
     "twine>=5.0.0",
+    "mkdocs-material>=9.0.0",
+    "mkdocs-gen-files>=0.5.0",
+    "mkdocs-literate-nav>=0.6.0",
 ]
 
 [project.scripts]

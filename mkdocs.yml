@@ -1,0 +1,59 @@
+site_name: Coastline Documentation
+site_description: Configuration management for Python using Pydantic and YAML
+site_url: https://kwierman.github.io/coastline
+repo_url: https://github.com/kwierman/coastline
+repo_name: kwierman/coastline
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search
+  - gen-files:
+      scripts:
+        - docs/gen_ref.py
+  - literate-nav:
+      nav_file: navigation.yml
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.details
+  - pymdownx.mark
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Installation: getting-started/installation.md
+      - Quick Start: getting-started/quick-start.md
+  - Guide:
+      - Configuration Basics: guide/configuration-basics.md
+      - ConfigLoader: guide/config-loader.md
+      - Registry: guide/registry.md
+  - API Reference: api.md
+  - Contributing: contributing.md

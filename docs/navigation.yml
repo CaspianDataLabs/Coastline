@@ -1,0 +1,11 @@
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Installation: getting-started/installation.md
+      - Quick Start: getting-started/quick-start.md
+  - Guide:
+      - Configuration Basics: guide/configuration-basics.md
+      - ConfigLoader: guide/config-loader.md
+      - Registry: guide/registry.md
+  - API Reference: api.md
+  - Contributing: contributing.md
