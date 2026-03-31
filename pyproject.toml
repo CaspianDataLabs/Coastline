@@ -1,6 +1,6 @@
 [project]
 name = "coastline"
-version = "0.1.0"
+version = "0.2.0"
 description = "Configuration management for Python using Pydantic types and YAML config files"
 readme = "README.md"
 license = { text = "MIT" }
